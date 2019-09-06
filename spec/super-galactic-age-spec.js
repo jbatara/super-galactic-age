@@ -1,7 +1,5 @@
-import {
-  SuperGalacticAge,
-  Lifestyle
-} from './../src/super-galactic-age';
+import {SuperGalacticAge} from './../src/super-galactic-age';
+import {Lifestyle} from './../src/lifestyle';
 
 describe('SuperGalacticAge', function () {
   beforeEach(function () {
