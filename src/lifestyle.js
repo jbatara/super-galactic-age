@@ -100,8 +100,8 @@ export class Lifestyle {
       bmi: [1,2]
     };
     const lifestyle = this;
-    if(lifestyle.checkGender() && lifestyle.checkCountry() && lifestyle.checkInput()){
-      if(lifestyle.country === 'usa'){
+    if(lifestyle.checkGender() && lifestyle.checkCountry()){
+      if((lifestyle.country === 'usa') && lifestyle.checkInput()){
         let lifestyleFactorCounter = 0;
         Object.keys(usaBestLifestyleFactors).forEach(function(key){
           if(usaBestLifestyleFactors[key].includes(lifestyle[key])){
