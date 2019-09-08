@@ -16,11 +16,11 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-       'src/*.js',
-       'spec/*spec.js'
+      'src/*.js',
+      'spec/*spec.js'
     ],
 
-     webpack: webpackConfig,
+    webpack: webpackConfig,
 
     // list of files / patterns to exclude
     exclude: [],
@@ -71,6 +71,8 @@ module.exports = function (config) {
     browsers: ['Chrome'],
 
 
+
+
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
@@ -78,5 +80,5 @@ module.exports = function (config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  })
-}
+  });
+};
