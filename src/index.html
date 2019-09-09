@@ -1,9 +1,99 @@
 <html>
-<head>
-  <title>Placeholder</title>
-</head>
-<body>
-  <h1>Placeholder Website</h1>
-</body>
-</html>        
 
+<head>
+  <title>Super Galactic Age!</title>
+</head>
+
+<body>
+  <div class="age">
+    <h2>You're super galactic ages are:</h2>
+    <span></span>
+  </div>
+  <h1>Let's Determine your Super Galactic Age!</h1>
+  <form id="inputs">
+    <label for="age">Age</label>
+    <input name="age" type="number" placeholder="Type in your age here!" required>
+    <label for="gender">Gender</label>
+    <select name="gender" required>
+      <option value="f">Female</option>
+      <option value="m">Male</option>
+    </select>
+    <label for="country">Country</label>
+    <select name="country" required>
+      <option value="afghanistan">Afghanistan</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="china">China</option>
+      <option value="france">France</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="usa">USA</option>
+    </select>
+    <div class="lifestyle">
+      <h3>Diet</h3>
+      <input type="radio" name="diet" value="1" selected>
+      <label for="diet">Poor</label>
+      <input type="radio" name="diet" value="2">
+      <label for="diet">Fair</label>
+      <input type="radio" name="diet" value="3">
+      <label for="diet">Average</label>
+      <input type="radio" name="diet" value="4">
+      <label for="diet">Great</label>
+      <input type="radio" name="diet" value="5">
+      <label for="diet">Excellent</label>
+
+      <h3>Smoking History</h3>
+      <input type="radio" name="smoking" value="1" selected>
+      <label for="smoking">Never Smoked</label>
+      <input type="radio" name="smoking" value="2">
+      <label for="smoking">Used to smoke</label>
+      <input type="radio" name="smoking" value="3">
+      <label for="smoking">Currently smoke 1-14 cigarettes per day</label>
+      <input type="radio" name="smoking" value="4">
+      <label for="smoking">Currently smoke 15-24 cigarettes per day</label>
+      <input type="radio" name="smoking" value="5">
+      <label for="smoking">Currently smoke >25 cigarettes per day</label>
+
+      <h3>Physical Activity History</h3>
+      <input type="radio" name="activity" value="1" selected>
+      <label for="activity">less than 0.5 hours/week</label>
+      <input type="radio" name="activity" value="2">
+      <label for="activity">0.5-1.9 hours/week</label>
+      <input type="radio" name="activity" value="3">
+      <label for="activity">2.0-3.4 hours/week</label>
+      <input type="radio" name="activity" value="4">
+      <label for="activity">3.5-5.4 hours/week</label>
+      <input type="radio" name="activity" value="5">
+      <label for="activity">greater than or equal to 5.5 hours/week</label>
+
+      <h3>Alcohol</h3>
+      <input type="radio" name="alcohol" value="1" selected>
+      <label for="alcohol">None</label>
+      <input type="radio" name="alcohol" value="2">
+      <label for="alcohol">up to 3 drinks/week</label>
+      <input type="radio" name="alcohol" value="3">
+      <label for="alcohol">4-5 drinks/week</label>
+      <input type="radio" name="alcohol" value="4">
+      <label for="alcohol">1-2 drinks/day</label>
+      <input type="radio" name="alcohol" value="5">
+      <label for="alcohol">3 or more/day</label>
+
+      <h3>BMI</h3>
+      <input type="radio" name="bmi" value="1" selected>
+      <label for="bmi">18.5-22.9</label>
+      <input type="radio" name="bmi" value="2">
+      <label for="bmi">23-24.9</label>
+      <input type="radio" name="bmi" value="3">
+      <label for="bmi">25-29.9</label>
+      <input type="radio" name="bmi" value="4">
+      <label for="bmi">30-34.9</label>
+      <input type="radio" name="bmi" value="5">
+      <label for="bmi">>=35</label>
+    </div>
+    <button class="btn btn-primary" type="submit">Blast off!</button>
+  </form>
+
+  <div></div>
+
+</body>
+
+</html>
