@@ -33,13 +33,13 @@ The estimated lifespans by country and gender were obtained from the [World Heal
 -   Internet browser
 -   Unix Terminal (optional)
 
-Option 1: To view locally please copy the link to [this repo](https://github.com/jbatara/super-galactic-age) and type the following command into your unix terminal:
+To view locally please copy the link to [this repo](https://github.com/jbatara/super-galactic-age) and type the following command into your unix terminal:
 
 $git clone repo_url
 
 with repo_url being the url that was just copied. Open index.html using your internet browser of choice (not compatible with Safari) and determine your Super Galactic Age!
 
-Option 2: To view online, please visit the [website](https://jbatara.github.io/super-galactic-age/) and determine your Super Galactic Age!
+This project is currently not hosted online.
 
 ## Known Bugs
 
