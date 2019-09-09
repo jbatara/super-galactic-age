@@ -21,8 +21,10 @@ The estimated lifespans by country and gender were obtained from the [World Heal
 |All ages must be a real number 0 or greater|Age: -20| _undefined_|
 |All ages must be a real number 0 or greater|Age: "f"| _undefined_|
 |All ages must be a real number 0 or greater|Age: 3i| _undefined_|
-|If age is valid, will return Mercury, Venus, Mars, and Jupiter Age|Age: 25| Earth years: 25 <br> Mercury Years: <br> Venus Years: <br> Mars Years: <br> Jupiter Years: |
-|I country other than USA selected, return expected life span from birth| 'china' | 124|
+|If age is valid, will return Mercury, Venus, Mars, and Jupiter Age|Age: 30| Earth years: 25 <br> Mercury Years: 125 <br> Venus Years: 48.38 <br> Mars Years: 15.95<br> Jupiter Years: 2.52 |
+|If country other than USA selected, return expected life span from birth| 'china'<br>'f' | 77.02|
+|If USA chosen, return expected life span based on lifestyle factors| 'usa'<br>'f'<br>Diet: Excellent<br> Smoking: Never <br> Physical Activity: Great <br> Alcohol: A few times a week <br> BMI: Normal|93.1|
+|If USA chosen, return expected life span based on lifestyle factors| 'usa'<br>'f'<br>Diet: Poor<br> Smoking: 1-2packs/day <br> Physical Activity: Sedentary <br> Alcohol: Multiple drinks a day <br> BMI: Obese|79.0|
 
 
 ## Setup/Installation Requirements
@@ -45,7 +47,7 @@ _No known bugs have been reported._
 
 ## Support and contact details
 
-Please feel free to [contact the developer](mailto:jennifer.batara.dev@gmail.com) for any feedback or support related questions.
+Please feel free to contact the developer by raising a new [issue](https://github.com/jbatara/super-galactic-age/issues/new) on the github repo. You can browse the current issues [here](https://github.com/jbatara/super-galactic-age/issues).
 
 ## Technologies Used
 
